@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c5c5c5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    color: #5fbaa7;
+    text-align: center;
+}
+
+p{
+    text-align: center;   
+}
+
+
+.swapRateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: #5fbaa7;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px 10px 15px 20px;
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+.rate{
+    margin: 15px 15px 15px 1px;
+    color: #03b48e;
+    font-size: 18px;
+}
+
+select{
+    padding: 5px 20px 5px 10px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    background: transparent;
+    margin: 5px 10px;
+    border: 1px solid #acabab;
+
+}
+
+
+input{
+    padding: 5px 8px;
+    background: transparent;
+    border: 1px solid #acabab;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    appearance: none;
+}
+
+
+input:focus , select:focus, .btn:focus{
+    outline: none;
+}
